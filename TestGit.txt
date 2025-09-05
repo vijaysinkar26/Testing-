@@ -2,4 +2,24 @@ Testing for move the files in git
 
 
 
-testing add file push on same repo ttttttttttttttttttttttttttttttttttt
+testing add file push on same repo 
+
+
+
+VSINKAR@LP-VSINKAR MINGW64 ~/Documents/Testing05 (main)
+$ git commit -m "addnewchange"
+[main 74e51dd] addnewchange
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+
+VSINKAR@LP-VSINKAR MINGW64 ~/Documents/Testing05 (main)
+$ git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 307 bytes | 153.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/vijaysinkar26/Testing-
+   c8cf416..74e51dd  main -> main
+
+VSINKAR@LP-VSINKAR MINGW64 ~/Documents/Testing05 (main)
